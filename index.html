@@ -1,324 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Praveen K | MERN & Next.js Developer</title>
-    <meta name="description" content="Architecting Scalable Systems with Modern JavaScript. Portfolio of Praveen K.">
+    <meta
+      name="description"
+      content="Architecting Scalable Systems with Modern JavaScript. Portfolio of Praveen K."
+    />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="cursor-glow"></div>
 
     <nav class="navbar">
-        <div class="logo">PK<span class="dot">.</span></div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#tech">Tech</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact" class="btn-primary">Let's Talk</a></li>
-        </ul>
-        <div class="menu-toggle">
-            <i data-lucide="menu"></i>
-        </div>
+      <div class="logo">PK<span class="dot">.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#tech">Tech</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact" class="btn-primary">Let's Talk</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <i data-lucide="menu"></i>
+      </div>
     </nav>
 
     <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero-section">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="badge-container">
-                        <span class="tech-badge">MERN Stack</span>
-                        <span class="tech-badge">Next.js</span>
-                        <span class="tech-badge">System Design</span>
-                    </div>
-                    <h1 class="hero-title">
-                        Architecting <span class="gradient-text">Scalable Systems</span><br>
-                        with Modern JavaScript
-                    </h1>
-                    <p class="hero-subtitle">
-                        I build high-performance, secure, and scalable web applications using Microservices, Redis, and
-                        Modern Web Technologies.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="#projects" class="btn-primary">View My Work</a>
-                        <a href="#contact" class="btn-secondary">Contact Me</a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <!-- Abstract Tech Visualization -->
-                    <div class="code-block-visual">
-                        <div class="code-line" style="--width: 80%;"></div>
-                        <div class="code-line" style="--width: 60%;"></div>
-                        <div class="code-line" style="--width: 90%;"></div>
-                        <div class="code-line" style="--width: 40%;"></div>
-                        <div class="floating-icon icon-react"><i data-lucide="atom"></i></div>
-                        <div class="floating-icon icon-db"><i data-lucide="database"></i></div>
-                        <div class="floating-icon icon-server"><i data-lucide="server"></i></div>
-                    </div>
-                </div>
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="badge-container">
+              <span class="tech-badge">MERN Stack</span>
+              <span class="tech-badge">Next.js</span>
+              <span class="tech-badge">System Design</span>
             </div>
-            <!-- <div class="scroll-indicator">
+            <h1 class="hero-title">
+              Architecting <span class="gradient-text">Scalable Systems</span
+              ><br />
+              with Modern JavaScript
+            </h1>
+            <p class="hero-subtitle">
+              I build high-performance, secure, and scalable web applications
+              using Microservices, Redis, and Modern Web Technologies.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn-primary">View My Work</a>
+              <a href="#contact" class="btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <!-- Abstract Tech Visualization -->
+            <div class="code-block-visual">
+              <div class="code-line" style="--width: 80%"></div>
+              <div class="code-line" style="--width: 60%"></div>
+              <div class="code-line" style="--width: 90%"></div>
+              <div class="code-line" style="--width: 40%"></div>
+              <div class="floating-icon icon-react">
+                <i data-lucide="atom"></i>
+              </div>
+              <div class="floating-icon icon-db">
+                <i data-lucide="database"></i>
+              </div>
+              <div class="floating-icon icon-server">
+                <i data-lucide="server"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="scroll-indicator">
                 <span>Scroll to Explore</span>
                 <i data-lucide="chevron-down"></i>
             </div> -->
-        </section>
+      </section>
 
-        <!-- About Section -->
-        <section id="about" class="section about-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Who I Am</h2>
-                    <p class="section-desc">My journey in building scalable systems.</p>
-                </div>
-                <div class="about-grid">
-                    <div class="about-text reveal-text">
-                        <p>I am a <strong>Professional MERN & Next.js Developer</strong> focused on creating scalable,
-                            secure, and performance-driven systems.</p>
-                        <p>My expertise lies not just in writing code, but in <strong>architecting solutions</strong>.
-                            From high-grade application architecture to caching strategies with Redis and microservices
-                            communication, I ensure every piece of software I build is production-ready.</p>
-                        <div class="experience-timeline">
-                            <div class="timeline-item">
-                                <span class="year">Present</span>
-                                <div class="content">
-                                    <h3>Freelance Full-Stack Engineer</h3>
-                                    <p>Building scalable products for clients & growing a product development vision.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- Add more timeline items as needed -->
-                        </div>
-                    </div>
-                    <div class="skills-radar">
-                        <!-- CSS/SVG Radar Chart Placeholder -->
-                        <div class="radar-chart">
-                            <div class="radar-circle"></div>
-                            <div class="radar-circle"></div>
-                            <div class="radar-circle"></div>
-                            <div class="skill-point p1"><span>Backend</span></div>
-                            <div class="skill-point p2"><span>Frontend</span></div>
-                            <div class="skill-point p3"><span>Database</span></div>
-                            <div class="skill-point p4"><span>Architecture</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tech Stack Section -->
-        <section id="tech" class="section tech-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">What I Use</h2>
-                    <p class="section-desc">My arsenal for building digital excellence.</p>
-                </div>
-                <div class="tech-grid">
-                    <div class="tech-card">
-                        <i data-lucide="file-code"></i>
-                        <h3>Frontend</h3>
-                        <p>React, Next.js, Tailwind, Redux</p>
-                    </div>
-                    <div class="tech-card">
-                        <i data-lucide="server"></i>
-                        <h3>Backend</h3>
-                        <p>Node.js, Express</p>
-                    </div>
-                    <div class="tech-card">
-                        <i data-lucide="database"></i>
-                        <h3>Database</h3>
-                        <p>MongoDB, PostgreSQL, Redis</p>
-                    </div>
-                    <div class="tech-card">
-                        <i data-lucide="settings"></i>
-                        <h3>Tools</h3>
-                        <p>Git, Postman, Jest, Webpack</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- System Design Section -->
-        <section id="system" class="section system-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">How I Build</h2>
-                    <p class="section-desc">Engineering robust architectures.</p>
-                </div>
-                <div class="system-diagram">
-                    <div class="diagram-node client">Client</div>
-                    <div class="diagram-arrow"></div>
-                    <div class="diagram-node lb">Load Balancer</div>
-                    <div class="diagram-arrow"></div>
-                    <div class="diagram-cluster">
-                        <div class="diagram-node service">Service A</div>
-                        <div class="diagram-node service">Service B</div>
-                    </div>
-                    <div class="diagram-arrow"></div>
-                    <div class="diagram-node db">Database + Redis</div>
-                </div>
-                <div class="system-features">
-                    <div class="feature">
-                        <i data-lucide="zap"></i>
-                        <h4>High Performance</h4>
-                        <p>Optimized with Redis caching and efficient algorithms.</p>
-                    </div>
-                    <div class="feature">
-                        <i data-lucide="shield"></i>
-                        <h4>Secure</h4>
-                        <p>Industry standard security practices and data protection.</p>
-                    </div>
-                    <div class="feature">
-                        <i data-lucide="scale"></i>
-                        <h4>Scalable</h4>
-                        <p>Microservices architecture ready for growth.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="services" class="section services-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Services</h2>
-                    <p class="section-desc">Value I deliver to your business.</p>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="card-content">
-                            <h3>Full-Stack Development</h3>
-                            <p>End-to-end web application development using the MERN stack.</p>
-                        </div>
-                        <div class="card-hover">
-                            <p>Custom solutions tailored to your needs.</p>
-                        </div>
-                    </div>
-                    <div class="service-card">
-                        <div class="card-content">
-                            <h3>API Design & Integration</h3>
-                            <p>Robust REST & GraphQL APIs with third-party integrations.</p>
-                        </div>
-                        <div class="card-hover">
-                            <p>Secure and documented API architectures.</p>
-                        </div>
-                    </div>
-                    <div class="service-card">
-                        <div class="card-content">
-                            <h3>Performance Optimization</h3>
-                            <p>Speeding up applications and reducing latency.</p>
-                        </div>
-                        <div class="card-hover">
-                            <p>Audits, caching strategies, and code splitting.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section projects-section">
-            <div class="container">
-                <div class="section-header">
-                    <h3>Real-time Dashboard</h3>
-                    <p>Analytics dashboard with WebSocket integration.</p>
-                    <div class="tags">
-                        <span>React</span>
-                        <span>Socket.io</span>
-                        <span>Redis</span>
-                    </div>
-                    <p class="project-desc"> A scalable real-time analytics dashboard that delivers live data updates
-                        using WebSockets and Redis caching. Designed for instant event processing, low-latency data
-                        flow, and efficient handling of rapidly changing metrics. Enables seamless monitoring, system
-                        insights, and high-performance visualization for growing applications with continuous data
-                        streams. </p>
-                    <a href="#" class="btn-link">View My Product <i data-lucide="arrow-right"></i></a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Vision Section -->
-        <section id="vision" class="section vision-section">
-            <div class="parallax-bg"></div>
-            <div class="container">
-                <div class="vision-content">
-                    <h2>My Vision</h2>
-                    <p class="vision-text">
-                        "To build a self-reliant product development company focused on performance-driven software that
-                        solves real-world problems."
+      <!-- About Section -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Who I Am</h2>
+            <p class="section-desc">My journey in building scalable systems.</p>
+          </div>
+          <div class="about-grid">
+            <div class="about-text reveal-text">
+              <p>
+                I am a
+                <strong>Professional MERN & Next.js Developer</strong> focused
+                on creating scalable, secure, and performance-driven systems.
+              </p>
+              <p>
+                My expertise lies not just in writing code, but in
+                <strong>architecting solutions</strong>. From high-grade
+                application architecture to caching strategies with Redis and
+                microservices communication, I ensure every piece of software I
+                build is production-ready.
+              </p>
+              <div class="experience-timeline">
+                <div class="timeline-item">
+                  <span class="year">Present</span>
+                  <div class="content">
+                    <h3>Frontend Engineer</h3>
+                    <p>
+                      Building high-performance interfaces using React &
+                      Next.js, bringing scalable product vision under the
+                      Sproutwings Telematics identity.
                     </p>
+                  </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="section contact-section">
-            <div class="container">
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <h2>Let's Work Together</h2>
-                        <p>Ready to build something amazing? Reach out and let's discuss your project.</p>
-                        <div class="contact-details">
-                            <div class="detail-item">
-                                <i data-lucide="mail"></i>
-                                <span>praveen@example.com</span>
-                            </div>
-                            <div class="detail-item">
-                                <i data-lucide="map-pin"></i>
-                                <span>Remote / Worldwide</span>
-                            </div>
-                        </div>
-                    </div>
-                    <form id="contact-form" class="contact-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Name" id="form-name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" id="form-email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Message" rows="5" id="form-message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-primary">Send Message</button>
-                    </form>
+                <div class="timeline-item">
+                  <span class="year">Present</span>
+                  <div class="content">
+                    <h3>Freelance Full-Stack Engineer</h3>
+                    <p>
+                      Building scalable products for clients & growing a product
+                      development vision.
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Notification Container -->
-        <div id="notification-container"></div>
+                <!-- Add more timeline items as needed -->
+              </div>
+            </div>
+            <div class="skills-radar">
+              <!-- CSS/SVG Radar Chart Placeholder -->
+              <div class="radar-chart">
+                <div class="radar-circle"></div>
+                <div class="radar-circle"></div>
+                <div class="radar-circle"></div>
+                <div class="skill-point p1"><span>Backend</span></div>
+                <div class="skill-point p2"><span>Frontend</span></div>
+                <div class="skill-point p3"><span>Database</span></div>
+                <div class="skill-point p4"><span>Architecture</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Stack Section -->
+      <section id="tech" class="section tech-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">What I Use</h2>
+            <p class="section-desc">
+              My arsenal for building digital excellence.
+            </p>
+          </div>
+          <div class="tech-grid">
+            <div class="tech-card">
+              <i data-lucide="file-code"></i>
+              <h3>Frontend</h3>
+              <p>React, Next.js, Tailwind, Redux</p>
+            </div>
+            <div class="tech-card">
+              <i data-lucide="server"></i>
+              <h3>Backend</h3>
+              <p>Node.js, Express</p>
+            </div>
+            <div class="tech-card">
+              <i data-lucide="database"></i>
+              <h3>Database</h3>
+              <p>MongoDB, PostgreSQL, Redis</p>
+            </div>
+            <div class="tech-card">
+              <i data-lucide="settings"></i>
+              <h3>Tools</h3>
+              <p>Git, Postman, Jest, Webpack</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- System Design Section -->
+      <section id="system" class="section system-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">How I Build</h2>
+            <p class="section-desc">Engineering robust architectures.</p>
+          </div>
+          <div class="system-diagram">
+            <div class="diagram-node client">Client</div>
+            <div class="diagram-arrow"></div>
+            <div class="diagram-node lb">Load Balancer</div>
+            <div class="diagram-arrow"></div>
+            <div class="diagram-cluster">
+              <div class="diagram-node service">Service A</div>
+              <div class="diagram-node service">Service B</div>
+            </div>
+            <div class="diagram-arrow"></div>
+            <div class="diagram-node db">Database + Redis</div>
+          </div>
+          <div class="system-features">
+            <div class="feature">
+              <i data-lucide="zap"></i>
+              <h4>High Performance</h4>
+              <p>Optimized with Redis caching and efficient algorithms.</p>
+            </div>
+            <div class="feature">
+              <i data-lucide="shield"></i>
+              <h4>Secure</h4>
+              <p>Industry standard security practices and data protection.</p>
+            </div>
+            <div class="feature">
+              <i data-lucide="scale"></i>
+              <h4>Scalable</h4>
+              <p>Microservices architecture ready for growth.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="section services-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Services</h2>
+            <p class="section-desc">Value I deliver to your business.</p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="card-content">
+                <h3>Full-Stack Development</h3>
+                <p>
+                  End-to-end web application development using the MERN stack.
+                </p>
+              </div>
+              <div class="card-hover">
+                <p>Custom solutions tailored to your needs.</p>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card-content">
+                <h3>API Design & Integration</h3>
+                <p>Robust REST & GraphQL APIs with third-party integrations.</p>
+              </div>
+              <div class="card-hover">
+                <p>Secure and documented API architectures.</p>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card-content">
+                <h3>Performance Optimization</h3>
+                <p>Speeding up applications and reducing latency.</p>
+              </div>
+              <div class="card-hover">
+                <p>Audits, caching strategies, and code splitting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h3>Real-time Dashboard</h3>
+            <p>Analytics dashboard with WebSocket integration.</p>
+            <div class="tags">
+              <span>React</span>
+              <span>Socket.io</span>
+              <span>Redis</span>
+            </div>
+            <p class="project-desc">
+              A scalable real-time analytics dashboard that delivers live data
+              updates using WebSockets and Redis caching. Designed for instant
+              event processing, low-latency data flow, and efficient handling of
+              rapidly changing metrics. Enables seamless monitoring, system
+              insights, and high-performance visualization for growing
+              applications with continuous data streams.
+            </p>
+            <a href="#" class="btn-link"
+              >View My Product <i data-lucide="arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vision Section -->
+      <section id="vision" class="section vision-section">
+        <div class="parallax-bg"></div>
+        <div class="container">
+          <div class="vision-content">
+            <h2>My Vision</h2>
+            <p class="vision-text">
+              "To build a self-reliant product development company focused on
+              performance-driven software that solves real-world problems."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h2>Let's Work Together</h2>
+              <p>
+                Ready to build something amazing? Reach out and let's discuss
+                your project.
+              </p>
+              <div class="contact-details">
+                <div class="detail-item">
+                  <i data-lucide="mail"></i>
+                  <span>praveen@example.com</span>
+                </div>
+                <div class="detail-item">
+                  <i data-lucide="map-pin"></i>
+                  <span>Remote / Worldwide</span>
+                </div>
+              </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Name" id="form-name" required />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  id="form-email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Message"
+                  rows="5"
+                  id="form-message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Notification Container -->
+      <div id="notification-container"></div>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Praveen K. All rights reserved.</p>
-            <div class="social-links">
-                <!-- <a href="#"><i data-lucide="github"></i></a> -->
-                <a href="#"><i data-lucide="linkedin"></i></a>
-                <!-- <a href="#"><i data-lucide="twitter"></i></a> -->
-            </div>
+      <div class="container">
+        <p>&copy; 2025 Praveen K. All rights reserved.</p>
+        <div class="social-links">
+          <!-- <a href="#"><i data-lucide="github"></i></a> -->
+          <a href="#"><i data-lucide="linkedin"></i></a>
+          <!-- <a href="#"><i data-lucide="twitter"></i></a> -->
         </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
     <script>
-        lucide.createIcons();
+      lucide.createIcons();
     </script>
-</body>
-
+  </body>
 </html>
