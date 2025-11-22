@@ -116,7 +116,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       );
       const result = await response.json();
-      console.log(result);
       if (result.success) {
         showNotification("Mail Sent Successfully", "check-check", "#19be56ff");
         document.getElementById("form-name").value = "";
@@ -135,7 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (contactForm) {
     contactForm.addEventListener("submit", (e) => {
       e.preventDefault();
-      const formData = new FormData(e.target);
       const name = document.getElementById("form-name").value;
       const email = document.getElementById("form-email").value;
       const message = document.getElementById("form-message").value;
